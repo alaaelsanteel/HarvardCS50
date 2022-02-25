@@ -19,6 +19,11 @@ int main(void)
         {
             printf("#");
         }
+        printf("  ");
+        for (int z = 0; z < i; z++)
+        {
+            printf("#");
+        }
         printf("\n");
     }
 }
